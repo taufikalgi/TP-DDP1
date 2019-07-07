@@ -1,0 +1,225 @@
+body{
+    background-image: url(img/gedungbundar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+}
+img{
+    border-radius: 50%;
+    position: absolute;
+    width: 100px;
+}
+.loginbox{
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 400px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.7);
+}
+.user{
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+}
+h2{
+    margin: 0;
+    padding: 0 0 20px;
+    color: #4cd137;
+    text-shadow: 1px 1px 1px #262626;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"], .loginbox input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+::placeholder{
+    color: rgba(255,255,255,.5)
+}
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: #00a8ff;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .5s;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.loginbox input[type="submit"]:hover{
+    background: #e84118;
+    color: #262626;
+}
+.loginbox a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    opacity: .8;
+}
+.regis{
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 350px;
+    height:50px;
+    padding: 18px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0, .7);
+}
+.regis p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+}
+.regis a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    opacity: .8;
+}
+.regisbox{
+    color: #fff;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 350px;
+    height: 700px;
+    padding: 40px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.7);
+}
+.regisbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+}
+.regisbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.regisbox input[type="text"], .regisbox input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+::placeholder{
+    color: rgba(255,255,255,.5)
+}
+.regisbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: #00a8ff;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .5s;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.regisbox input[type="submit"]:hover{
+    background: #e84118;
+    color: #262626;
+}
+.regisbox a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    opacity: .8;
+}
+.home-logged{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.7);
+}
+.home{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 150px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.7);
+}
+.cond-home a{
+    color: aqua;
+    font-size: 14;
+    text-decoration: none;
+}
+.cond-home{
+    color: #00a8ff;
+    margin-left: 45%;
+}
+.logout-button{
+    margin-left: 48%;
+    
+}
+.logout-button a{
+    color: aqua;
+    font-size: 14;
+    text-decoration: none;
+}
+button{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: #00a8ff;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .5s;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 100%;
+}
+button:hover{
+    background: #e84118;
+    color: #262626;
+}
